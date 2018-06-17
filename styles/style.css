@@ -1,0 +1,77 @@
+body {
+    background:  #eff3ca;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header-container {
+    position: relative;
+    height: 350px;
+    background: url("../images/header-background.jpg");
+    background-size: 100%;
+}
+
+.main-hero {
+    display: inline-block;
+    width: 20%;
+    height: 300px;
+    margin-left: 15%;
+    background: url("../images/hero.png") no-repeat;
+    background-size: 100%;
+}
+
+.name-of-the-game {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    font-size: 50px;
+    font-family: Algerian, serif;
+    color: #83e9ff;
+}
+
+.description {
+    background: #83e9ff;
+    height: 400px;
+}
+
+.description h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Calibri", serif;
+}
+
+.description p {
+    font-size: 20px;
+    font-family: "Calibri", serif;
+    line-height: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.description .button-play {
+    margin-left: 45%;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    text-decoration: none;
+    border-top: 50px solid transparent;
+    border-left: 150px solid greenyellow;
+    border-bottom: 50px solid transparent;
+    color: #FFFFFF;
+}
+
+.description .button-play span {
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 50px;
+    margin-left: -140px;
+    font-family: Arial, serif;
+}
+
+.footer {
+    text-align: center;
+    font-family: "Calibri", serif;
+    font-size: 24px;
+    color: white;
+    background: black;
+}

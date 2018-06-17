@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remalswor</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="jquery.bxslider.min.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="libraries/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="libraries/jquery.bxslider.min.js"></script>
+    <script type="text/javascript" src="vendor/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="vendor/jquery.fitvids.js"></script>
+
+</head>
+<body>
+<script>
+    $(document).ready(function () {
+        $('.bxslider').bxSlider({
+            mode: 'fade',
+            captions: true
+        });
+    });
+</script>
+<header class="header-container">
+<div class="main-hero"></div>
+    <h1 class="name-of-the-game">Remalswor</h1>
+</header>
+<section>
+    <ul class="bxslider">
+        <li><img src="images/Screenshot-for-slider-1.png" title="Spell selection" alt="Spell selection" /></li>
+        <li><img src="images/Screenshot-for-slider-2.png" title="Task selection" alt="Task selection" /></li>
+        <li><img src="images/Screenshot-for-slider-3.png" title="Reference point" alt="Reference point" /></li>
+        <li><img src="images/Screenshot-for-slider-4.png" title="The sound of an animal" alt="The sound of an animal" /></li>
+        <li><img src="images/Screenshot-for-slider-5.png" title="Fireball" alt="Fireball" /></li>
+        <li><img src="images/Screenshot-for-slider-6.png" title="Game over" alt="Game over" /></li>
+    </ul>
+</section>
+<section class="description">
+    <h2>Description of the game</h2>
+    <p>
+        In this game, the main character is "Remalswor". At the beginning of each round, there are a choice of two spells (attacking and heal) after choosing which, a list with 13 different tasks appears. With the correct execution of any chosen task, the main character reproduces the spell, after which, the enemy begins to attack. If the task was a non-correct decision, then the hero's spell is not reproduced, and the monster deals damage. The game continues until the main character is killed. After killing the hero, a table with high scores appears, as well as a "Try again" button.
+    </p>
+
+    <br />
+    <br />
+
+    <a class="button-play" href="https://alzar95.github.io/remalswor/">
+        <span>Play</span>
+    </a>
+</section>
+<footer class="footer">
+    Was made by Pavel Nishcharetau
+</footer>
+</body>
+</html>
